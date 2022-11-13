@@ -1,28 +1,34 @@
-/*
-1. The following code declares a new array. Using this array attempt the following:
-a) Output the text ‘Tuesday’ (slides 4-7)
-b) Output the text ‘Monday is the first day of the week’ (slides 4-7)
-c) Output the text ‘Friday and Saturday are my favourite days’ (slides 4-7)
-d) Output the entire contents of the array using a for loop (slide 11)
-e) Output the entire contents of the array using a forEach loop (slide 12)
-*/
+// 1. The following code declares a new array. Using this array attempt the following:
+// a) Output the text 'Tuesday' in the console
+// b) Output the text 'Monday is the first day of the week' in the console
+// c) Output the text 'Friday and Saturday are my favourite days' in the console
+// d) Output the entire contents of the array using a forEach loop
 
-const daysOfTheWeek= ["Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday","Sunday"];
 
-/*
-2. The following code declares an array. Using this array attempt the following:
-a) Output the entire contents of the array using a forEach loop (slide 12)
-b) Use a filter to generate an array of countries that contain the letter 'n'. Have a look at using indexOf() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf).  Save the resulting array and output its contents using a forEach loop (slide 15, slide 18) 
-c) Modify your program from (2b) so that you ask the user for a search term and then display the countries that match the search term e.g. if the user enters 'in', China, India and Indonesia should be displayed.
-*/
+const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+
+// 2. The following code declares an array. Using this array attempt the following:
+// a) Output the text 'Brazil has won the World Cup. USA hasn't.' in the console
+// b) Output the entire contents of the array using a forEach loop
+// c) Use a filter to generate an array of countries that contain the letter 'n'. 
+//    Use a forEach loop to output the matching countries
+//    Have a look at using indexOf() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf).  Save the resulting array and output its contents using a forEach loop (slide 15, slide 18) 
+// d) Modify your program from (2c) so that you ask the user for a search term (use a prompt box) and then display the countries that match the search term e.g. if the user enters 'in', China, India and Indonesia should be displayed.
+// e) Modify your program from (2d) so that it doesn't matter if the user enters the search term in upper or lower case.
+
 const countries=["China","India","USA","Indonesia","Brazil","Pakistan"];
 
-/*
-3. The following code declares an array of numbers. Using this array attempt the following:
-a) Output the entire contents of the array using a forEach loop (slide 12)
-b) Use a map to double each element in the array. Save the resulting array as doubleNums and output its contents using a forEach loop (slide 14)
-c) Use a filter to generate an array of positive numbers based on nums. Save the resulting array as positiveNums and output its contents using a forEach loop (slide 15)
-d) Instead of using a 'hard-coded' array of numbers, use a for loop to repeatedly ask the user for a number. Each time the user answers with a number, store the answer in the nums array. Using this array output the double of each element, and all the positive numbers that were entered.
-e) Use the reduce function to get the total of all the numbers entered. (slide 16)
-f) Use reduce to get the largest of the numbers that have been entered. (slide 16)
-*/
+// 3. The following code declares a String variable
+// a) Output the second character i.e. 'r' in the console. 
+// b) Output the position of the dot i.e '7' in the console (use the indexOf() method)
+// c) Output the file extension i.e. png (use the substring() method)
+
+const fileName = "profile.png";
+
+// 4. Write a program that asks the user for a filename.
+// a) Using the substring() method the program should test the file extension of the entered filename and feedback telling the user if it is a PNG or not.
+// b) Modify your answer so that the program tells the user if the file is an image or not (test for .PNG, .JPG and .GIF)
+// c) JPG images can be saved with a .jpg extension or a .jpeg extension. Modify your program so that it tests for both. 
+
+
