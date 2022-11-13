@@ -27,7 +27,7 @@ const countries=["China","India","USA","Indonesia","Brazil","Pakistan"];
 const fileName = "profile.png";
 
 // 4. Write a program that asks the user for a filename.
-// a) Using the substring() method the program should test the file extension of the entered filename and feedback telling the user if it is a PNG or not.
+// a) Using the substring() method, the program should test the file extension of the entered filename and feedback telling the user if it is a PNG or not.
 // b) Modify your answer so that the program tells the user if the file is an image or not (test for .PNG, .JPG and .GIF)
 // c) JPG images can be saved with a .jpg extension or a .jpeg extension. Modify your program so that it tests for both. 
 
